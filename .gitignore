@@ -1,20 +1,40 @@
-# Python
+# Ignore Python cache files
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Virtual environment
+# Ignore virtual environments
 .venv/
+venv/
+ENV/
 env/
 
-# .env file untuk API credentials
+# Ignore environment variables
 .env
+multi_tool_agent/.env
 
-# Log files
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pyo
+*.so
+
+# Ignore logs and temp files
 *.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
 
-# IDE configuration files
+# Ignore VSCode settings
 .vscode/
-.idea/
 
-# Database files
-*.db
+# Ignore Python notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled C files
+*.out
+*.o
+
+# macOS specific
+.DS_Store
